@@ -12,7 +12,6 @@
         <div class="collapse navbar-collapse" id="navbar">
             <ul class="nav navbar-nav navbar-right ">
                 <li class="active"><a href="#">Inicio</a></li>
-                <li class=""><a href="#">Qué es TED</a></li>
                 <li class=""><a href="#">Programa</a></li>
                 <li class=""><a href="#">Ponentes</a></li>
                 <li class=""><a href="#">Organizadores</a></li>                                

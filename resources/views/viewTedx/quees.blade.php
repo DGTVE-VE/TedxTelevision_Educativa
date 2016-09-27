@@ -15,3 +15,19 @@
         </p>
     </div>
 </div>
+<div class="row" style="background: black; color: white;">
+    <div class="col-md-12">
+        <div class="col-md-4">
+            <div class="col-md-8" id="whateverID"><iframe width="300" height="220" frameborder="0" title="YouTube video player" type="text/html" src="http://www.youtube.com/embed/qFdtNT1C_UE?enablejsapi=1"></iframe></div>
+            <div class="col-md-4 text-justify"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mollis lectus at erat faucibus luctus. Donec orci libero, finibus eget.</p></div>
+        </div>
+        <div class="col-md-4">
+            <div class="col-md-8" id="whateverID"><iframe width="300" height="220" frameborder="0" title="YouTube video player" type="text/html" src="http://www.youtube.com/embed/qBX_0_Ehwrk?enablejsapi=1"></iframe></div>
+            <div class="col-md-4 text-justify"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mollis lectus at erat faucibus luctus. Donec orci libero, finibus eget.</p></div>
+        </div>    
+        <div class="col-md-4">
+            <div class="col-md-8" id="whateverID"><iframe width="300" height="220" frameborder="0" title="YouTube video player" type="text/html" src="http://www.youtube.com/embed/IvTio0FJf6Y?enablejsapi=1"></iframe></div>
+            <div class="col-md-4 text-justify"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mollis lectus at erat faucibus luctus. Donec orci libero, finibus eget.</p></div>            
+        </div>                
+    </div>
+</div>

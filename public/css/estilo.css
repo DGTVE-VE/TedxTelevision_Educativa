@@ -19,23 +19,68 @@ body {
     width: 100%;
     display: table;
     font-weight: 100;
-    font-family: 'Lato';
-
+    font-family: 'Lato';    
 }
 
 /*css header and footer*/
 
-nav.navbar-Tedx a { color: white; }
-nav.navbar-Tedx ul.navbar-nav a:hover,
-nav.navbar-Tedx ul.navbar-nav a:focus,
-nav.navbar-Tedx ul.navbar-nav a:active {  }
-nav.navbar-Tedx ul.navbar-nav a:hover { 
+.navbar-Tedx a { 
+    color: white; 
+    z-index: 100;
+}
+
+.navbar-Tedx ul li a:hover,
+.navbar-Tedx ul li a:focus  
+{ 
     border-style: solid; 
     border-width: 0 0 2px 0; 
-    border-color: #fff; }
+    border-color: #fff;
+    background: black;
+}
 .txtRed{color: red;}
 .txtcopy{color: white}
-.footer{
-    padding: 1.5% 6% 0 0;
+.clear-top{
+    padding: 2.5% 6% 0 0;
 }
+
+#wrap {
+    min-height: 100%;
+}
+
+#main {
+    overflow:auto;
+    padding-bottom:50px; /* this needs to be bigger than footer height*/
+}
+
+.footer {
+    position: relative;
+    margin-top: -150px; /* negative value of footer height */
+    height: 150px;
+    clear:both;
+    padding-top:20px;
+} 
+
 /*fin css header and footer*/
+
+/*Ponentes*/
+
+.thumbnail {
+    position:relative;
+    overflow:hidden;
+    padding: 0;
+    border: 0;
+}
+ 
+.caption {
+    position:absolute;
+    top:0;
+    right:0;
+    background:rgba(230, 43, 30, 0.75);
+    width:100%;
+    height:100%;
+    padding:2%;
+    display: none;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+}

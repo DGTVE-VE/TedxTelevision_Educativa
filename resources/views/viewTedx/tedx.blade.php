@@ -6,6 +6,7 @@
 
 @section('bodyTedx')
 @include('viewTedx.quees')
+@include('viewTedx.ponentes')
 @endsection
 
 @section('footerTedx')

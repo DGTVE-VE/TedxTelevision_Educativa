@@ -1,33 +1,31 @@
 <div class="row">
     <div class="col-md-4 col-lg-4 col-sm-12">
         <p class="text-justify">
-            <strong class="txtRed">TED</strong>    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget commodo ex. Curabitur quis nisi porttitor, blandit leo vitae, viverra tortor. Donec volutpat, sem quis condimentum vulputate, nulla tortor tempor urna, nec rhoncus ante erat eu urna. Cras a nibh risus. Cras non enim quis metus rutrum interdum nec a ipsum. Integer dolor quam, imperdiet id tellus ut, lacinia tempus enim. Sed tempor facilisis aliquam. Cras congue ipsum condimentum augue eleifend iaculis. Quisque quis elementum nulla, sit amet cursus ligula. Nam eget sapien risus. Nulla et maximus mi, tempus suscipit nisi. Cras in laoreet sapien, lacinia congue tellus.
+            <strong class="txtRed">TED</strong> (Technology, Entretainment, Desing) es una organización no lucrativa, dedicada a las ideas que vale la pena difundir, por lo general en forma de conversaciones breves y poderosas.Comenzó en 1984 como una conferencia en la que convergieron temas de tecnología, entretenimiento y diseño.
+            <br>
+            Actualmente, cubre casi todos los temas, en más de 110 idiomas. Su propósito es llevar a cabo eventos independientes que ayuden a compartir ideas en las comunidades de todo el mundo.
+            <br>
+            En los diversos TED han participado personas que por su trayectoria son reconocidos a nivel mundial.
         </p>
     </div>
     <div class="col-md-4 col-lg-4 col-sm-12">
         <p class="text-justify">
-            <strong class="txtRed">TEDx</strong> Suspendisse ac tellus lobortis, laoreet dui ut, cursus felis. Cras dignissim tellus ut dui sodales luctus. Suspendisse eget metus ex. Donec hendrerit congue ipsum, non varius ex fringilla in. Praesent congue vitae dolor eget tempor. Aliquam sed elit non lorem egestas fringilla. Integer ac maximus odio, sit amet dapibus libero. Nunc rutrum turpis sit amet lacinia pellentesque. Curabitur malesuada massa lacus, quis porta ante condimentum iaculis. In tempus quis arcu nec ultricies. Vivamus ultrices massa tellus, sit amet egestas augue rhoncus et. Pellentesque ac accumsan mauris. Integer sit amet ornare ex, ac luctus lectus. Quisque ac mi sit amet leo aliquet bibendum sit amet et tellus.
+            <strong class="txtRed">TEDx</strong> En el espíritu de las ideas vale la pena difundir, TED ha creado un programa denominado TEDx. TEDx es un programa de eventos locales auto-organizados que unen a las personas a compartir una experiencia similar a TED. Nuestro evento es llamado TEDx [nombre], donde x = evento TED organizado de manera independiente. En nuestro evento TEDx [nombre], TEDTalks vídeo y altavoces en vivo se combinan para provocar la discusión profunda y la conexión en un grupo pequeño. La Conferencia TED proporciona una guía general para el programa TEDx, pero los eventos TEDx individuales, incluyendo el nuestro, son auto-organizada.
+            <br>
+            Texto en el pie de página (en la parte inferior de la página) que indica "Este evento TEDx independiente es operado bajo licencia de TED."
         </p>
     </div>
     <div class="col-md-4 col-lg-4 col-sm-12">
         <p class="text-justify">
-            <strong class="txtRed">TEDx</strong><strong>Televisión Educativa</strong> Fusce eget arcu elit. Ut a nisi nibh. Fusce eleifend suscipit pellentesque. Proin fermentum, leo at facilisis lobortis, dui justo laoreet nibh, et tempus metus justo in nisi. Sed congue finibus orci, eu commodo ipsum varius quis. Integer dictum sit amet justo vitae volutpat. Ut ultricies nisl sit amet tempus consectetur. Sed tristique ornare erat ac imperdiet. Duis massa ex, tristique sit amet lorem non, faucibus congue neque. Donec feugiat dolor eu est feugiat, vel maximus enim vehicula. Morbi tincidunt ut quam ac posuere. Sed porta diam in leo congue laoreet. Sed fermentum at orci sit amet malesuada. In tempor vel ante bibendum tempus.
+            <strong class="txtRed">TEDx</strong><strong>Televisión Educativa</strong> La DGTVE con el apoyo de la licencia TEDx creará un espacio para las ideas que vale la pena difundir. Por ello, tiene como propósito juntar a distinguidos expertos de diferentes temas que estén dispuestos a compartir un poco de su conocimiento, trayectoria, experiencias y casos de éxito en el ámbito educativo que permitan crear un cambio positivo en nuestra actualidad e inspirar a las nuevas generaciones.
         </p>
     </div>
 </div>
-<div class="row" style="background: black; color: white;">
-    <div class="col-md-12">
-        <div class="col-md-4">
-            <div class="col-md-8" id="whateverID"><iframe width="300" height="220" frameborder="0" title="YouTube video player" type="text/html" src="http://www.youtube.com/embed/qFdtNT1C_UE?enablejsapi=1"></iframe></div>
-            <div class="col-md-4 text-justify"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mollis lectus at erat faucibus luctus. Donec orci libero, finibus eget.</p></div>
-        </div>
-        <div class="col-md-4">
-            <div class="col-md-8" id="whateverID"><iframe width="300" height="220" frameborder="0" title="YouTube video player" type="text/html" src="http://www.youtube.com/embed/qBX_0_Ehwrk?enablejsapi=1"></iframe></div>
-            <div class="col-md-4 text-justify"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mollis lectus at erat faucibus luctus. Donec orci libero, finibus eget.</p></div>
-        </div>    
-        <div class="col-md-4">
-            <div class="col-md-8" id="whateverID"><iframe width="300" height="220" frameborder="0" title="YouTube video player" type="text/html" src="http://www.youtube.com/embed/IvTio0FJf6Y?enablejsapi=1"></iframe></div>
-            <div class="col-md-4 text-justify"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mollis lectus at erat faucibus luctus. Donec orci libero, finibus eget.</p></div>            
-        </div>                
-    </div>
+<div class="row backVideos">
+    <div class="col-md-3 col-sm-8 col-xs-12"><iframe width="300" height="220" frameborder="0" title="YouTube video player" type="text/html" src="http://www.youtube.com/embed/qFdtNT1C_UE?enablejsapi=1&rel=0&showinfo=0" ></iframe></div>
+    <div class="col-md-1 col-sm-4 col-xs-12 text-justify bottom-align-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mollis lectus at erat faucibus luctus. Donec orci libero, finibus eget.</p></div>
+    <div class="col-md-3 col-sm-8 col-xs-12"><iframe width="300" height="220" frameborder="0" title="YouTube video player" type="text/html" src="http://www.youtube.com/embed/qBX_0_Ehwrk?enablejsapi=1&rel=0&showinfo=0"></iframe></div>
+    <div class="col-md-1 col-sm-4 col-xs-12 text-justify bottom-align-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mollis lectus at erat faucibus luctus. Donec orci libero, finibus eget.</p></div>
+    <div class="col-md-3 col-sm-8 col-xs-12"><iframe width="300" height="220" frameborder="0" title="YouTube video player" type="text/html" src="http://www.youtube.com/embed/IvTio0FJf6Y?enablejsapi=1&rel=0&showinfo=0"></iframe></div>
+    <div class="col-md-1 col-sm-4 col-xs-12 text-justify bottom-align-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mollis lectus at erat faucibus luctus. Donec orci libero, finibus eget.</p></div>            
 </div>

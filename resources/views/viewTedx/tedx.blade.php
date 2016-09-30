@@ -6,7 +6,9 @@
 
 @section('bodyTedx')
 @include('viewTedx.quees')
-@include('viewTedx.ponentes')
+{{--@include('viewTedx.ponentes')--}}
+@include('viewTedx.organizadores')
+@include('viewTedx.galeria')
 @endsection
 
 @section('footerTedx')

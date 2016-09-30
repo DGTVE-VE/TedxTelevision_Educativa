@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('tedx','TedxController@tedx');
+
+Route::get('galeria','TedxController@galeria');

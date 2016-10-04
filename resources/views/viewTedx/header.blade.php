@@ -1,5 +1,5 @@
 <nav class="navbar navbar-Tedx navbar-fixed-top navbar-inverse">
-    <div class="container-fluid">
+    <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
                 <span class="sr-only">Toggle navigation</span>
@@ -12,9 +12,9 @@
         <div class="collapse navbar-collapse" id="navbar">
             <ul class="nav navbar-nav navbar-right ">
                 <li class="active"><a href="#">Inicio</a></li>
-                <li class=""><a href="#">Programa</a></li>
-                <li class=""><a href="#">Ponentes</a></li>
-                <li class=""><a href="#">Organizadores</a></li>                                
+                <li class=""><a href="#programa">Programa</a></li>
+                <li class=""><a href="#ponentes">Ponentes</a></li>
+                <li class=""><a href="#organizadores">Organizadores</a></li>                                
             </ul>
         </div>
     </div>

@@ -10,16 +10,20 @@ and open the template in the editor.
 
 html, body {
     height: 100%;
-
 }
 
 body {
     margin: 0;
     padding: 0;
     width: 100%;
+    height: 100%;
     display: table;
     font-weight: 100;
     font-family: "Helvetica", Arial, sans-serif;    
+}
+
+.container-fluid{
+    padding: 0 !important;
 }
 
 /*css header and footer*/
@@ -69,6 +73,8 @@ body {
     overflow:hidden;
     padding: 0;
     border: 0;
+    height: 170px;
+    width: 170px;
 }
 
 .caption {
@@ -94,47 +100,43 @@ body {
     color: white;
     text-decoration: none !important;
 }
-.nombreponente{
-    background: black;
-}
 
+#ponentes{
+    background: url(../images/backponentes.jpg);
+    background-position: 50% 0;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.textBlanco{
+    color: white;
+}
 /*end ponentes*/
 
 /*que es videos*/
 .bottom-align-text {
-
-}
-
-.backVideos{
-    background: url(../images/backvideos.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    width: 100vw;
     color: white;
-    text-align: center;
+    /*background: rgba(0,0,0,0.7);*/
+
 }
-.backVideos div{
-    padding: 0;
+
+#videos{
+    background: url(../images/backvideos.jpg);
+    background-position: 50% 0;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 /*end que es videos*/
 
 
 
 /*organizadores*/
-.backorganiza{
-    background: url(../images/organizadores.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 400px;
-    position: initial
+#organizadores{
+    background-color: #101010;
 }
-
 .plecaorganizadores{
     margin-top: -145%;
 }

@@ -8,7 +8,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
 
-        <link rel="shortcut icon" href="{{ asset('tedx.ico') }}" >
+        <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" >
 
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">

@@ -64,6 +64,21 @@ body {
     padding-top:20px;
 } 
 
+.linkPie{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.linkPie:hover{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-style: solid; 
+    border-width: 0 0 2px 0; 
+    border-color: #fff;
+}
 /*fin css header and footer*/
 
 /******Ponentes*/

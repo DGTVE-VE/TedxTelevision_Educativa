@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('tedx');
+    return view('viewTedx/tedx');
 });
 
 Route::get('tedx','TedxController@tedx');

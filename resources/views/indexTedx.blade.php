@@ -33,7 +33,7 @@
         <header>
             @yield('headerTedx')
         </header>
-        <div class="container-fluid">
+        <div class="container-fluid cuerpoPagina">
             @yield('bodyTedx')
         </div>
         <footer>

@@ -173,3 +173,12 @@ body {
     padding: 3%;
 }
 /*fin de que es*/
+
+
+.imgTedx{
+    position: relative; top:-10px;
+}
+
+.cuerpoPagina{
+    position: relative; top:30px;
+}

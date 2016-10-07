@@ -1,0 +1,83 @@
+.contactanos{
+	background: url(../images/BACK_CONTACTO.jpg);
+	background-repeat: no-repeat;
+    background-size: 100%; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	color: grey;
+}
+
+.contactanos input,
+.contactanos textarea{
+	width: 100%;
+}
+
+.contactanos input::-webkit-input-placeholder { color: black; font-weight :bold; }
+.contactanos input::-moz-placeholder { color: black; font-weight: bold; }
+.contactanos input::-moz-placeholder { color: black; font-weight: bold; }
+.contactanos input::-ms-input-placeholder { color: black; font-weight: bold; }
+
+.contactanos .enviar{
+	width: 40%;
+}
+
+.contactanos form{
+	margin-top: 15%;
+}
+
+
+.delimitador{
+    width:100%;
+    margin: 5% 0;
+    padding: 0 10%;
+}
+.contenedor{
+    height:0px;
+    width:100%;
+    padding-top:56.25%;
+    position:relative;
+}
+.contenedor iframe{
+    position:absolute;
+    height:100%;
+    width:100%;
+    top:0px;
+    left:0px;
+}
+.player{
+	background: url(../images/foto_header.jpg);
+	background-repeat: no-repeat;
+    background-size: 100%; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	color: grey;
+}
+
+.player p{
+    color: #EBEBEB;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.player .box-shadow{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.row .clock{
+    width: 660px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 767px){
+    .row .clock{
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        height: 100%;
+    }
+}

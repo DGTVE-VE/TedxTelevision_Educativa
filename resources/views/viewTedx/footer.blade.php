@@ -2,7 +2,7 @@
     <div id="main" class="clear-top">
         <div class="col-md-6 col-md-offset-1 col-lg-offset-1 col-lg-6 col-sm-12 col-xs-12">
             <p class="txtcopy text-justify">Copyright&copy; 2016 -  <strong class="txtRed"> TEDx </strong>TelevisiónEducativa.
-                | Este evento TEDx Independiente es organizado bajo licencia de TED En el mismo espíritu de difundir ideas, TED ha creado un programa llamado TEDx, el cual es un programa de eventos locales, organizados de forma independiente que reúnen a una audiencia en una experiencia similar a TED.  TED da lineamientos generales para el programa TEDx, pero cada TEDx individual es organizado de manera autónoma (sujeto a ciertas directrices).    
+                | Este evento <strong class="txtRed">TEDx</strong> Independiente es organizado bajo licencia de <strong class="txtRed">TED</strong> En el mismo espíritu de difundir ideas, <strong class="txtRed">TED</strong> ha creado un programa llamado <strong class="txtRed">TEDx</strong>, el cual es un programa de eventos locales, organizados de forma independiente que reúnen a una audiencia en una experiencia similar a <strong class="txtRed">TED</strong>.  <strong class="txtRed">TED</strong> da lineamientos generales para el programa <strong class="txtRed">TEDx</strong>, pero cada TEDx individual es organizado de manera autónoma (sujeto a ciertas directrices).    
             </p>
         </div>
         <div class="col-md-2 col-lg-2 col-sm-6 col-xs-12 text-center">            

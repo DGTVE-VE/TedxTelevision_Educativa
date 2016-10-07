@@ -49,7 +49,7 @@ body {
 .txtRed{color: red;}
 .txtcopy{color: white}
 .clear-top{
-    padding: 2.5% 6% 0 0;
+    padding: 5% 6% 0 0;
 }
 
 #wrap {
@@ -58,11 +58,11 @@ body {
 
 #main {
     overflow:auto;
-    padding-bottom:50px; /* this needs to be bigger than footer height*/
+    /*padding-bottom:50px;  this needs to be bigger than footer height*/
 }
 
 .footer {
-    position: relative;
+    /*position: relative;*/
     margin-top: -150px; /* negative value of footer height */
     height: 150px;
     clear:both;
@@ -83,6 +83,10 @@ body {
     border-style: solid; 
     border-width: 0 0 2px 0; 
     border-color: #fff;
+}
+
+#wrap{
+    /*background: black;*/
 }
 /*fin css header and footer*/
 
@@ -158,13 +162,10 @@ body {
 
 /*organizadores*/
 #organizadores{
-    background-color: #101010;
-}
-.plecaorganizadores{
-    margin-top: -145%;
+    background-color: #101010;    
 }
 #organizadores img{
-    
+  
 }
 /*end organizadores*/
 
@@ -180,5 +181,11 @@ body {
 }
 
 .cuerpoPagina{
-    position: relative; top:30px;
+    position: relative; 
+    top:30px; 
+    overflow: hidden;
 }
+
+/*galeria*/
+#galeria{ background-color: #101010;}
+/*fin galería*/

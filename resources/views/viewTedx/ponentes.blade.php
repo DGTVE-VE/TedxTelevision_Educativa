@@ -1,7 +1,7 @@
 <section id="ponentes">
     <div class="container">
         <div class="row">
-            <div class="text-center textBlanco"><h3>PONENTES</h3></div>
+            <div class="col-md-12 text-center textBlanco"><h3><strong>PONENTES</strong></h3></div>
             <div class="col-lg-offset-0 col-md-offset-0 col-sm-offset-1 col-xs-offset-2">
             <!--Sección 1-->
             <div class="col-md-3 col-lg-2 col-sm-4 col-xs-12">            

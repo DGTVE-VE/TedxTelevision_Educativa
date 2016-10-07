@@ -28,9 +28,14 @@ body {
 
 /*css header and footer*/
 
+.navbar-default{height: 90px;}
+
+#navbar{padding-top: 2%; }
+
 .navbar-Tedx a { 
     color: white; 
     z-index: 100;
+    height: 80px;
 }
 
 .navbar-Tedx ul li a:hover,
@@ -132,6 +137,7 @@ body {
 /*que es videos*/
 .bottom-align-text {
     color: white;
+    font-weight: bold;
     /*background: rgba(0,0,0,0.7);*/
 
 }

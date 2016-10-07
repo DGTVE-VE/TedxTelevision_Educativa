@@ -24,6 +24,10 @@
 
         <!---->        
         <link rel="stylesheet" href="{{asset ('css/estilo.css') }}">
+        <link rel="stylesheet" href="{{asset ('css/estilo-serch.css') }}">
+        <link rel="stylesheet" href="{{asset ('css/flipclock.css') }}">
+        <script src="{{asset ('js/flipclock.js') }}"></script>
+        <script src="{{asset ('js/script-contador.js') }}"></script>
     </head>
     <body>
         <header>

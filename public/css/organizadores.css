@@ -1,0 +1,17 @@
+﻿	.imgEncima{
+		position:absolute;
+		top:0px;
+		left:0px;
+	}
+	.posiciona{
+		position:relative;
+	}
+	.invisible{
+		visibility: hidden;
+	}
+	.pasaFrente{
+		z-index:3;
+	}
+	.pasaAtras{
+		z-index:2;
+	}

@@ -3,11 +3,16 @@
 <section id="organizadores">
     <div class="container">
         <div class="row posiciona">
+
+            <img class="img-responsive" src="{{asset('images/organizadores/organizadores.jpg')}}"/>
+			<map name="mapaRedesSoc" id="mapaRedesSoc">
+				<area alt="" title="" href="#" shape="poly" coords="666,567,676,569,685,575,687,588,686,596,679,604,668,606,658,605,652,600,648,588,649,577,654,570" />
+				<area alt="" title="" href="#" shape="poly" coords="729,567,740,570,749,578,749,588,747,597,738,605,727,606,719,603,711,595,709,585,711,575,719,570" />
+			</map>
+			<img id="colaboradorResalta" class="imgEncima invisible img-responsive" src="{{asset('images/organizadores/musicasCompleto.png')}}" onclick="ocultaColaborador()" usemap="#mapaRedesSoc"/>
 			<map name="mapaOrganizadores" id="mapaOrganizadores">
 				<area alt="" title="" shape="poly" coords="487,590,529,538,547,540,550,520,558,522,558,501,565,483,584,474,594,474,605,484,617,496,621,514,620,551,648,570,639,599,622,606,614,622,623,635,627,649,623,664,620,680,590,734,579,642,507,638" onmouseover="muestraSombra()" onmouseout="ocultaSombra()" onclick="muestraColaborador()"/>
 			</map>
-            <img class="img-responsive" src="{{asset('images/organizadores/organizadores.jpg')}}"/>
-			<img id="colaboradorResalta" class="imgEncima invisible img-responsive" src="{{asset('images/organizadores/musicasCompleto.png')}}" onclick="ocultaColaborador()"/>
 			<img id="mapaOrganizadores" class="imgEncima img-responsive" src="{{asset('images/organizadores/frenteOrganiza.png')}}" alt="" usemap="#mapaOrganizadores"/>
 		</div>
     </div>

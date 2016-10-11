@@ -1,14 +1,16 @@
-	activaOculta = true;
-	function muestraSombra(){
-		$("#colaboradorResalta").removeClass("invisible");
+	//activaOculta = true;
+	function muestraSombra(numOrganizador){
+		var archivoSombra = "images/organizadores/hover/hover" + numOrganizador + ".png";
+		$("#colaboradorSombra").attr("src",archivoSombra);
+		$("#colaboradorSombra").removeClass("invisible");
 	}
 	function ocultaSombra(){
-		if(activaOculta){
-			$("#colaboradorResalta").addClass("invisible");
-		}
+		///if(activaOculta){
+			$("#colaboradorSombra").addClass("invisible");
+		//}
 	}
 	function muestraColaborador(){
-		activaOculta = false;
+		//activaOculta = false;
 		$("#colaboradorResalta").addClass('pasaFrente');
 		$("#mapaOrganizadores").addClass('pasaAtras');
 	}
@@ -16,8 +18,10 @@
 		$("#colaboradorResalta").addClass("invisible");
 		$("#colaboradorResalta").removeClass('pasaFrente');
 		$("#mapaOrganizadores").removeClass('pasaAtras');
-		activaOculta = true;
+		//activaOculta = true;
 	}
+	
+	
     /* rwdImageMaps jQuery plugin v1.5
      *
      * Allows image maps to be used in a responsive design by recalculating the area coordinates to match the actual image size on load and window.resize

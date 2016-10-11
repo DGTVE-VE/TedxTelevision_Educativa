@@ -1,24 +1,27 @@
-	//activaOculta = true;
 	function muestraSombra(numOrganizador){
 		var archivoSombra = "images/organizadores/hover/hover" + numOrganizador + ".png";
 		$("#colaboradorSombra").attr("src",archivoSombra);
 		$("#colaboradorSombra").removeClass("invisible");
 	}
 	function ocultaSombra(){
-		///if(activaOculta){
-			$("#colaboradorSombra").addClass("invisible");
-		//}
+		$("#colaboradorSombra").addClass("invisible");
+		$("#colaboradorSombra").attr("src","images/organizadores/frenteOrganiza.png");
 	}
-	function muestraColaborador(){
-		//activaOculta = false;
+	function muestraColaborador(numOrganizador){
+		var archivoDatos = "images/organizadores/click/click" + numOrganizador + ".png";
+		$("#colaboradorResalta").attr("src",archivoDatos);
+		var mapaRedes = "#mapaRedes" + numOrganizador;
+		$("#colaboradorResalta").attr("usemap",mapaRedes);
+		$('#colaboradorResalta').rwdImageMaps();
 		$("#colaboradorResalta").addClass('pasaFrente');
 		$("#mapaOrganizadores").addClass('pasaAtras');
+		$("#colaboradorResalta").removeClass("invisible");
 	}
 	function ocultaColaborador(){
 		$("#colaboradorResalta").addClass("invisible");
 		$("#colaboradorResalta").removeClass('pasaFrente');
 		$("#mapaOrganizadores").removeClass('pasaAtras');
-		//activaOculta = true;
+		$("#colaboradorResalta").attr("src","");
 	}
 	
 	

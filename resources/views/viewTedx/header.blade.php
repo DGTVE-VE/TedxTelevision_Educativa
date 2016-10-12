@@ -1,3 +1,4 @@
+<section id="menu">
 <nav class="navbar navbar-Tedx navbar-fixed-top navbar-inverse">
     <div class="container">
         <div class="navbar-header">
@@ -11,7 +12,7 @@
         </div>
         <div class="collapse navbar-collapse" id="navbar-Tedx">
             <ul class="nav navbar-nav navbar-right ">
-                <li class="active"><a href="#">Inicio</a></li>
+                <li class="active"><a href="#menu">Inicio</a></li>
                 <li class=""><a href="#programa">Programa</a></li>
                 <li class=""><a href="#ponentes">Ponentes</a></li>
                 <li class=""><a href="#organizadores">Organizadores</a></li>                                
@@ -19,3 +20,4 @@
         </div>
     </div>
 </nav>
+</section>

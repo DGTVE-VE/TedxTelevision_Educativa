@@ -91,7 +91,7 @@
 			<map name="mapaRedes22" id="mapaRedes22">
 				<area alt="" title="" href="https://www.linkedin.com/profile/preview?locale=es_ES&trk=prof-0-sb-preview-primary-button" shape="poly" coords="891,336,895,337,899,338,902,340,905,343,907,347,909,351,909,356,909,361,907,365,904,368,901,371,897,373,892,374,886,374,883,372,879,371,876,369,874,365,872,361,871,355,872,349,874,345,878,340,884,337" />
             </map>
-            <img id="colaboradorResalta" class="imgEncima invisible img-responsive" src="{{asset('images/organizadores/click1.png')}}" onclick="ocultaColaborador()" usemap="#mapaRedes1"/>
+            <img id="colaboradorResalta" class="imgEncima invisible img-responsive" src="{{asset('images/organizadores/click/click1.png')}}" onclick="ocultaColaborador()" usemap="#mapaRedes1"/>
 			<img id="colaboradorSombra" class="imgEncima invisible img-responsive" src="{{asset('images/organizadores/frenteOrganiza.png')}}"/>
             <map name="mapaOrganizadores" id="mapaOrganizadores">
 				<area alt="Saviour" title="" shape="poly" onmouseover="muestraSombra('1')" onmouseout="ocultaSombra('1')" onclick="muestraColaborador('1')" coords="377,215,394,221,401,233,401,253,395,266,387,278,385,289,397,293,409,298,418,304,425,317,434,329,441,342,439,359,420,368,410,363,407,409,417,429,412,435,415,450,420,480,405,475,388,477,375,485,373,502,369,521,366,535,358,493,345,560,333,571,328,533,299,533,299,512,309,499,313,481,307,476,297,458,298,409,299,375,305,349,299,313,299,293,311,277,321,275,337,274,349,271,353,257,348,249,350,235,359,222" />

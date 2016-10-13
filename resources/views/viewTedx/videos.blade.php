@@ -19,9 +19,4 @@
         </div>  
     </div>
 </section>
-<script>
-	$('.parallax-window').parallax({
-		naturalWidth:1600,
-		naturalHeight:500
-	});
-</script>
+<script src="js/videos.js"></script>

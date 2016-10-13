@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="{{url('css/organizadores.css')}}"></link>
 <script src="{{url('js/organizadores.js')}}"></script>
 <section id="organizadores">
-    <div class="container">
+    <div class="container-fluid">
         <div class="col-md-12 text-center textBlanco"><h3><strong>ORGANIZADORES</strong></h3></div>
         <div class="row posiciona">
             <img class="img-responsive" src="{{asset('images/organizadores/organizadores.jpg')}}"/>

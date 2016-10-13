@@ -1,23 +1,30 @@
-	activaOculta = true;
-	function muestraSombra(){
-		$("#colaboradorResalta").removeClass("invisible");
+	function muestraSombra(numOrganizador){
+		var archivoSombra = "images/organizadores/hover/hover" + numOrganizador + ".png";
+		$("#colaboradorSombra").attr("src",archivoSombra);
+		$("#colaboradorSombra").removeClass("invisible");
 	}
 	function ocultaSombra(){
-		if(activaOculta){
-			$("#colaboradorResalta").addClass("invisible");
-		}
+		$("#colaboradorSombra").addClass("invisible");
+		$("#colaboradorSombra").attr("src","images/organizadores/frenteOrganiza.png");
 	}
-	function muestraColaborador(){
-		activaOculta = false;
+	function muestraColaborador(numOrganizador){
+		var archivoDatos = "images/organizadores/click/click" + numOrganizador + ".png";
+		$("#colaboradorResalta").attr("src",archivoDatos);
+		var mapaRedes = "#mapaRedes" + numOrganizador;
+		$("#colaboradorResalta").attr("usemap",mapaRedes);
+		$('#colaboradorResalta').rwdImageMaps();
 		$("#colaboradorResalta").addClass('pasaFrente');
 		$("#mapaOrganizadores").addClass('pasaAtras');
+		$("#colaboradorResalta").removeClass("invisible");
 	}
 	function ocultaColaborador(){
 		$("#colaboradorResalta").addClass("invisible");
 		$("#colaboradorResalta").removeClass('pasaFrente');
 		$("#mapaOrganizadores").removeClass('pasaAtras');
-		activaOculta = true;
+		$("#colaboradorResalta").attr("src","");
 	}
+	
+	
     /* rwdImageMaps jQuery plugin v1.5
      *
      * Allows image maps to be used in a responsive design by recalculating the area coordinates to match the actual image size on load and window.resize
@@ -90,4 +97,27 @@
     /* ------    Se llama la función que redimensiona mapas de imagenes responsivas -----  */
     $(document).ready(function (e) {
         $('img[usemap]').rwdImageMaps();
+		
+		  // Add smooth scrolling to all links
+		  $("a").on('click', function(event) {
+
+			// Make sure this.hash has a value before overriding default behavior
+			if (this.hash !== "") {
+			  // Prevent default anchor click behavior
+			  event.preventDefault();
+
+			  // Store hash
+			  var hash = this.hash;
+
+			  // Using jQuery's animate() method to add smooth page scroll
+			  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+			  $('html, body').animate({
+				scrollTop: $(hash).offset().top
+			  }, 800, function(){
+		   
+				// Add hash (#) to URL when done scrolling (default click behavior)
+				window.location.hash = hash;
+			  });
+			} // End if
+		  });
     });

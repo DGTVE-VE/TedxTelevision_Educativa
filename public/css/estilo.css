@@ -27,15 +27,27 @@ body {
 }
 
 /*css header and footer*/
+.navbar-Tedx{
+    background-color: rgba(0,0,0,.7); 
+    height: 84px;
+    border:0px;
 
-.navbar-default{height: 90px;}
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: rgba(0,0,0,.2) !important; 
+}
 
-#navbar{padding-top: 2%; }
+.imgTedx{
+    position: relative; top:-10px;
+}
 
 .navbar-Tedx a { 
     color: white; 
     z-index: 100;
-    height: 80px;
+}
+.text-menu{
+    padding-top: 1.2%;
 }
 
 .navbar-Tedx ul li a:hover,
@@ -44,7 +56,7 @@ body {
     border-style: solid; 
     border-width: 0 0 2px 0; 
     border-color: #fff;
-    background: black;
+    background: black;    
 }
 .txtRed{color: red;}
 .txtcopy{color: white}
@@ -85,10 +97,26 @@ body {
     border-color: #fff;
 }
 
-#wrap{
-    /*background: black;*/
+@media all and (max-width: 375px){
+    .imgTedx{
+        margin-top: -20%;
+        top: -20%;
+        width: 60%;
+    }
+    .navbar-Tedx{
+        height: 50px;
+    }
+}
+@media all and (max-width: 768px){
+    .imgTedx{
+        width: 70%;
+    }
+    .navbar-Tedx{
+        height: 60px;
+    }
 }
 /*fin css header and footer*/
+
 
 /******Ponentes*/
 
@@ -133,6 +161,10 @@ body {
     background-repeat: no-repeat;
     height: 100%;
 }
+#ponentes h3{
+    margin-top: 10%;
+}
+
 .textBlanco{
     color: white;
 }
@@ -164,8 +196,31 @@ body {
 #organizadores{
     background-color: #101010;    
 }
-#organizadores img{
-  
+#organizadores h3{
+    z-index: 2; 
+    position: absolute;    
+    margin-left: 40%;
+    margin-top: 10%;
+}
+@media all and (max-width: 425px){
+    #organizadores h3{
+        margin-left: 15%;
+    }
+}
+@media all and (max-width: 768px){
+ #organizadores h3{
+        margin-left: 30%;
+        margin-top: 12%;
+        font-size: 20px;
+    }
+}
+@media all and (max-width: 375px){
+
+    #organizadores h3{
+        margin-left: 22%;
+        margin-top: 18%;
+        font-size: 15px;
+    }
 }
 /*end organizadores*/
 
@@ -176,9 +231,7 @@ body {
 /*fin de que es*/
 
 
-.imgTedx{
-    position: relative; top:-10px;
-}
+
 
 .cuerpoPagina{
     position: relative; 

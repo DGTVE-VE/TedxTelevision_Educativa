@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('tedx','TedxController@tedx');
 
 Route::get('galeria','TedxController@galeria');
+
+Route::get('programa/{bloq?}', 'TedxController@programa');
+
+Route::resource('mail', 'MailController');

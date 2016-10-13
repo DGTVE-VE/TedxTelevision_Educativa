@@ -9,24 +9,28 @@
 							<a class="bloque active" href="#" data-bloque="1" >
 								<div class="text-center">BLOQUE 1</div>
 								<div class="text-center">10:00 - 11:00 am</div>
+								<div class="borde"><div></div></div>
 							</a>
 						</div>
 						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
 							<a class="bloque" href="#" data-bloque="2" >
 								<div class="text-center">BLOQUE 2</div>
 								<div class="text-center">10:00 - 11:00 am</div>
+								<div class="borde"><div></div></div>
 							</a>
 						</div>
 						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
 							<a class="bloque" href="#" data-bloque="3" >
 								<div class="text-center">BLOQUE 3</div>
 								<div class="text-center">10:00 - 11:00 am</div>
+								<div class="borde"><div></div></div>
 							</a>
 						</div>
 						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
 							<a class="bloque" href="#" data-bloque="4" >
 								<div class="text-center">BLOQUE 4</div>
 								<div class="text-center">10:00 - 11:00 am</div>
+								<div class="borde"><div></div></div>
 							</a>
 						</div>
 					</div>
@@ -52,7 +56,7 @@
 
 							<div class="fb-page" 
 								data-href="https://www.facebook.com/tedxtelevisioneducativa/" 
-								data-tabs="timeline" 
+								data-tabs="timeline,events" 
 								data-width="500" 
 								data-height="600" 
 								data-small-header="false" 

@@ -13,6 +13,7 @@ var bloque = function( element ){
 		$(this).removeClass('active');
 	});
 	element.addClass('active');
+    
 	programa( element.attr("data-bloque") );
 };
 
@@ -21,7 +22,7 @@ var programa = function( bloque ){
 	var local = this.location.origin;
 	enviar( null, local + "/programa/" + bloque, "GET", "html", false, function( m ){
 		$("#tabla-programa").html( m );
-	} );
+	});
 };
 
 

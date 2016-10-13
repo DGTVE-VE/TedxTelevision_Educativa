@@ -1,4 +1,4 @@
-/*
+﻿/*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
@@ -179,14 +179,14 @@ body {
 }
 
 #videos{
-    background: url(../images/backvideos.jpg);
+    /*background: url(../images/backvideos.jpg);
     background-position: 20% 0;
+    background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    background-repeat: no-repeat;
     height: 100%;
     padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 2%;*/
 }
 /*end que es videos*/
 
@@ -234,8 +234,6 @@ body {
 
 
 .cuerpoPagina{
-    position: relative; 
-    top:30px; 
     overflow: hidden;
 }
 

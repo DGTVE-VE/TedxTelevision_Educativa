@@ -1,4 +1,6 @@
-<section id="videos">
+<!--	Libreria Parallax	-->
+<script src="js/parallax.js-1.4.2/parallax.min.js"></script>
+<section id="videos parallax-window" data-parallax="scroll" data-speed="0.3" data-image-src="{{url('images/backvideos.jpg')}}" data-position="0px -20px">
     <div class="container">
         <div class="row">
             <br>
@@ -17,3 +19,9 @@
         </div>  
     </div>
 </section>
+<script>
+	$('.parallax-window').parallax({
+		naturalWidth:1600,
+		naturalHeight:500
+	});
+</script>

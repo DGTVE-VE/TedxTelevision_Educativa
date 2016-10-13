@@ -30,7 +30,10 @@
 
 .delimitador{
     width:100%;
-    margin: 5% 0;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 0px;
+    margin-right: 0px;
     padding: 0 10%;
 }
 .contenedor{
@@ -73,11 +76,87 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 767px){
-    .row .clock{
-        width: 100%;
-        margin: 0 auto;
-        display: block;
-        height: 100%;
+
+@media screen and (max-width: 991px){
+    .delimitador{
+        margin-top: 13%;
     }
+}
+
+@media screen and (max-width: 767px){
+    .delimitador{
+        margin-top: 15%;
+    }
+}
+
+
+/*Seccion de programa*/
+a.bloque:link{
+    text-decoration:none;
+}
+
+a.bloque{
+    color: #000000;
+}
+
+a.bloque:hover{
+    color: red;
+}
+
+a.bloque.active{
+    color: red;
+}
+
+.programa tr:nth-child(even){
+    background-color: #E1E1E1;
+}
+
+.programa tr:nth-child(odd){
+    background-color: #EBEBEB;
+}
+
+.caja-foto{
+    width: 15%;
+}
+
+.caja-info{
+    width: 85%;
+    padding-left: 3%;
+}
+
+.caja-foto,
+.caja-info,
+.caja-nombre{
+    float: left;
+}
+
+.caja-horario{
+    float: right;
+    width: 30%;
+}
+
+.caja-nombre{
+    width: 70%;
+}
+
+.img-foto{
+    width: 100%;
+    padding-bottom: 10%;
+}
+
+.caja-programa{
+    margin-top: 8%;
+}
+
+.caja{
+    padding: 3%;
+}
+
+.caja-nombre,
+.caja-horario{
+    padding-top: 2%;
+}
+
+#programa{
+    padding: 3% 0;
 }

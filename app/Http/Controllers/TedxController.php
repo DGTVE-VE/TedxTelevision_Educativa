@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 
+use App\Speaker;
+
 class TedxController extends Controller {
 
     public function tedx() {
@@ -19,6 +21,15 @@ class TedxController extends Controller {
         //
         //Secreto:
         //6d941f31c6645eb5 
+    }
+
+    public function programa($bloq = 1){
+
+        $speakers = Speaker::where('bloq', $bloq)
+                            ->orderBy('start', 'asc')
+                            ->get();
+
+        return view('viewPrograma/programa', ['speakers' => $speakers]);
     }
 
 }

@@ -1,4 +1,4 @@
-<section id="ponentes">
+<section id="ponentes"  class="parallax-ponenteBack"><!-- data-parallax="scroll" data-speed="0.3" data-image-src="{{url('images/backponentes.jpg')}}" data-position="0px -20px"-->
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center textBlanco"><h3><strong>PONENTES</strong></h3></div>

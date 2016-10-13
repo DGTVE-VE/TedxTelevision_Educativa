@@ -29,6 +29,7 @@
         <script src="{{asset ('js/jsSerch.js') }}"></script>
         <script src="{{asset ('js/flipclock.js') }}"></script>
         <script src="{{asset ('js/script-contador.js') }}"></script>
+		<script src="js/videos.js"></script>
     </head>
     <body>
         <header>

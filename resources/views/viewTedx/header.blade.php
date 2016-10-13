@@ -1,3 +1,6 @@
+<!--	Libreria Parallax	-->
+<script src="js/parallax.js-1.4.2/parallax.min.js"></script>
+
 <section id="menu">
     <!--<div class="navbar-default"></div>-->
     <nav class="navbar navbar-Tedx navbar-fixed-top navbar-inverse">

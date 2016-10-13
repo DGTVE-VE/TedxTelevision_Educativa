@@ -157,8 +157,8 @@ body {
     background: url(../images/backponentes.jpg);
     background-position: 50% 0;
     background-size: cover;
-    position: relative;
     background-repeat: no-repeat;
+    position: relative;
     height: 100%;
 }
 #ponentes h3{

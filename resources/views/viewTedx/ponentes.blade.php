@@ -1,5 +1,5 @@
-<section id="ponentes"  class="parallax-ponenteBack"><!-- data-parallax="scroll" data-speed="0.3" data-image-src="{{url('images/backponentes.jpg')}}" data-position="0px -20px"-->
-    <div class="container">
+<section id="ponentes">
+	<div class="container">
         <div class="row">
             <div class="col-md-12 text-center textBlanco"><h3><strong>PONENTES</strong></h3></div>
             <div class="col-lg-offset-0 col-md-offset-0 col-sm-offset-1 col-xs-offset-2">
@@ -18,7 +18,7 @@
                     <img src="http://placehold.it/170x170" alt="...">
                 </div>
             </div>
-            <!--{{asset('images/ponentes/alejandropiscitelli.jpg')}}-->
+            <!--{-{-asset('images/ponentes/alejandropiscitelli.jpg')-}-}-->
             <div class="col-md-3 col-lg-2 col-sm-4 col-xs-12">            
                 <div class="thumbnail">
                     <div class="caption">

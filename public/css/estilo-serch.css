@@ -115,6 +115,10 @@ a.bloque.active{
     background-color: #EBEBEB;
 }
 
+.programa{
+    margin-top: 5%;
+}
+
 .caja-foto{
     width: 15%;
 }
@@ -159,4 +163,15 @@ a.bloque.active{
 
 #programa{
     padding: 3% 0;
+}
+
+.borde{
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-top: 10%;
+    padding-bottom: 0%;
+}
+
+.active .borde div{
+    border-bottom: solid 4px red;
 }

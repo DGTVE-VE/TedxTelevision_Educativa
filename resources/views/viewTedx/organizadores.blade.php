@@ -5,94 +5,94 @@
         <div class="col-md-12 text-center textBlanco"><h3><strong>ORGANIZADORES</strong></h3></div>
         <div class="row posiciona">
             <img class="img-responsive" src="{{asset('images/organizadores/organizadores.jpg')}}"/>
-            <map name="mapaRedes1" id="mapaRedes1">
+            <map name="mapaRedes01" id="mapaRedes1">
                 <area alt="" title="" href="https://twitter.com/SaviourSilvaM" target="_blank" shape="poly" coords="1014,428,1020,429,1027,431,1032,437,1035,444,1035,452,1032,457,1027,463,1020,466,1013,466,1006,464,1002,461,998,454,996,446,998,439,1005,431" />
                 <area alt="" title="" href="https://www.linkedin.com/in/savioursilva?trk=nav_responsive_tab_profile_pic" target="_blank" shape="poly" coords="1076,428,1082,428,1088,430,1092,434,1095,438,1097,442,1098,449,1096,454,1093,460,1086,464,1080,466,1074,465,1067,462,1064,458,1062,454,1060,448,1061,442,1064,436,1068,431" />
             </map>
-            <map name="mapaRedes2" id="mapaRedes2">
+            <map name="mapaRedes02" id="mapaRedes2">
                 <area alt="" title="" href="https://twitter.com/FabiolaSilvaVz" target="_blank" shape="poly" coords="662,555,665,555,669,557,672,558,675,561,678,564,680,566,680,569,681,573,680,579,678,584,675,588,671,591,666,592,661,593,655,592,651,589,648,586,645,582,643,579,643,573,644,567,646,563,652,558" />
                 <area alt="" title="" href="https://www.linkedin.com/in/fabiolasilvavz" target="_blank" shape="poly" coords="724,556,729,556,736,559,742,564,744,571,744,575,743,581,742,585,739,588,735,591,730,593,726,594,720,592,715,591,711,586,709,583,706,578,706,571,707,565,711,560,717,557" />
             </map>
-            <map name="mapaRedes3" id="mapaRedes3">
+            <map name="mapaRedes03" id="mapaRedes3">
                 <area alt="" title="" href="https://twitter.com/marianalcmrls" target="_blank" shape="poly" coords="753,517,760,518,764,518,769,522,772,525,774,530,775,533,775,539,774,544,771,548,769,551,763,554,759,555,752,555,748,553,744,551,740,547,738,542,737,538,738,531,740,526,744,521" />
                 <area alt="" title="" href="https://www.linkedin.com/in/mariana-lucio-morales" target="_blank" shape="poly" coords="816,518,824,517,828,519,831,521,834,523,837,528,837,532,838,540,836,545,834,550,829,552,824,555,818,555,811,553,807,550,803,545,801,541,800,536,801,528,806,522,811,518" />
             </map>
-            <map name="mapaRedes4" id="mapaRedes4">
+            <map name="mapaRedes04" id="mapaRedes4">
                 <area alt="" title="" href="https://twitter.com/BluesEnrique" target="_blank" shape="poly" coords="1042,525,1046,525,1053,527,1058,529,1062,533,1063,536,1064,539,1065,542,1065,549,1064,552,1062,555,1060,557,1056,560,1052,562,1048,563,1042,563,1038,561,1033,559,1031,556,1028,550,1027,545,1027,540,1029,535,1034,529" />
                 <area alt="" title="" href="https://www.linkedin.com/in/carlos-enrique-rodr%C3%ADguez-pérez-50714b97?trk=nav_responsive_tab_profile_pic" target="_blank" shape="poly" coords="1105,526,1109,525,1114,526,1117,526,1121,529,1123,532,1125,535,1127,539,1128,544,1127,549,1125,555,1121,559,1117,561,1113,563,1106,562,1100,561,1096,558,1093,555,1092,550,1091,545,1091,539,1093,534,1097,529" />
             </map>
-            <map name="mapaRedes5" id="mapaRedes5">
+            <map name="mapaRedes05" id="mapaRedes5">
                 <area alt="" title="" href="https://twitter.com/MartiniIsra" target="_blank" shape="poly" coords="671,558,678,558,683,559,687,562,690,565,693,570,694,574,694,580,692,586,690,589,687,592,683,595,677,596,672,596,668,596,663,593,659,587,656,583,656,577,657,570,660,565,665,559" />
                 <area alt="" title="" href="https://mx.linkedin.com/in/israel-martínez-400a62112" target="_blank" shape="poly" coords="728,558,734,558,738,559,742,562,745,564,749,568,750,575,750,581,748,586,746,589,742,594,736,596,729,596,722,594,717,591,713,584,712,580,712,573,714,568,718,563" />
             </map>
-            <map name="mapaRedes6" id="mapaRedes6">
+            <map name="mapaRedes06" id="mapaRedes6">
                 <area alt="" title="" href="https://twitter.com/aleycl" target="_blank" shape="poly" coords="908,485,916,486,918,489,923,492,927,500,927,508,924,516,917,521,909,523,899,520,894,515,890,506,890,498,895,490" />
                 <area alt="" title="" href="https://www.linkedin.com/in/alejandra-y%C3%A9pez-08a3b712b" target="_blank" shape="poly" coords="970,485,978,487,981,488,984,492,988,497,989,503,989,509,986,516,982,520,975,523,966,523,958,519,952,510,952,503,956,492,961,487" />
             </map>
-            <map name="mapaRedes7" id="mapaRedes7">
+            <map name="mapaRedes07" id="mapaRedes7">
                 <area alt="" title="" href="https://twitter.com/iJoand" target="_blank" shape="poly" coords="899,495,907,496,912,499,915,502,918,506,919,511,919,515,918,521,916,524,912,529,907,531,904,533,897,533,892,531,887,528,883,523,881,517,882,510,884,503,890,497" />
                 <area alt="" title="" href="https://www.linkedin.com/in/joand-hernandez-cruz-16128412b" target="_blank" shape="poly" coords="959,495,963,495,967,496,972,498,976,501,980,505,982,511,982,517,981,522,978,527,972,531,967,533,959,533,953,530,949,527,946,523,944,516,944,509,949,501" />
             </map>
-            <map name="mapaRedes8" id="mapaRedes8">
+            <map name="mapaRedes08" id="mapaRedes8">
                 <area alt="twitter" title="" href="https://twitter.com/lpmurillotovar" target="_blank" shape="poly" coords="1082,487,1088,488,1092,490,1096,493,1098,496,1100,502,1100,508,1098,517,1093,522,1086,524,1078,524,1071,522,1066,518,1064,514,1063,507,1064,501,1067,494,1072,489" />
                 <area alt="linkedIn" title="" href="https://www.linkedin.com/in/pablo-murillo-3b196b89" target="_blank" shape="poly" coords="1144,487,1147,487,1152,489,1156,492,1160,494,1162,497,1163,504,1164,510,1161,516,1158,520,1154,523,1147,525,1141,525,1134,522,1128,516,1126,510,1126,503,1128,496,1135,489" />
             </map>
-            <map name="mapaRedes9" id="mapaRedes9">
+            <map name="mapaRedes09" id="mapaRedes9">
                 <area alt="" title="" href="https://twitter.com/soniamtzcastro" target="_blank" shape="poly" coords="745,516,754,519,759,523,763,529,765,535,764,543,760,548,755,553,746,555,739,554,732,550,728,542,727,535,728,528,731,524,737,519" />
                 <area alt="" title="" href="https://www.linkedin.com/in/sonia-martinez-castro-74193158" target="_blank" shape="poly" coords="806,517,813,517,818,520,823,523,825,527,826,533,826,538,825,544,821,549,817,553,811,555,803,555,798,553,792,548,790,542,789,535,790,529,793,522,799,518" />
             </map>
-            <map name="mapaRedes10" id="mapaRedes10">
+            <map name="mapaRedes010" id="mapaRedes10">
                 <area alt="" title="" href="https://twitter.com/GermanRuiz13" target="_blank" shape="poly" coords="932,508,940,508,947,511,950,515,953,518,955,523,955,526,954,532,953,538,948,541,945,542,941,544,936,544,929,544,925,542,922,540,919,535,918,529,917,522,919,517,922,512" />
                 <area alt="" title="" href="https://www.linkedin.com/in/GermanRuizMendez13" target="_blank" shape="poly" coords="998,507,1005,509,1009,511,1012,514,1015,520,1017,523,1017,529,1016,533,1014,536,1011,538,1008,543,1003,545,999,545,992,544,988,543,984,539,981,533,979,524,982,516,987,511" />
             </map>
-            <map name="mapaRedes11" id="mapaRedes11">
+            <map name="mapaRedes011" id="mapaRedes11">
                 <area alt="" title="" href="https://twitter.com/javiercastanos_" target="_blank" shape="poly" coords="901,474,908,475,912,478,916,481,920,487,920,495,918,502,913,507,907,511,899,512,894,510,888,507,885,502,883,496,883,490,885,483,890,478" />
                 <area alt="" title="" href="https://www.linkedin.com/in/javier-casta%C3%B1os-27b52154?trk=hp-identity-name" target="_blank" shape="poly" coords="963,475,970,475,975,477,978,481,981,485,982,490,983,495,982,501,979,505,974,509,968,512,960,512,956,510,952,508,949,504,947,500,946,495,945,489,946,485,948,482,951,479,955,476" />
             </map>
-            <map name="mapaRedes12" id="mapaRedes12">
+            <map name="mapaRedes012" id="mapaRedes12">
                 <area alt="" title="" href="https://twitter.com/BluesEnrique" target="_blank" shape="poly" coords="1073,497,1081,498,1085,500,1089,502,1092,505,1095,512,1095,518,1093,526,1087,532,1083,535,1075,535,1069,534,1064,530,1059,526,1058,519,1058,512,1060,504,1065,499" />
                 <area alt="" title="" href="https://www.linkedin.com" target="_blank" shape="poly" coords="1138,497,1143,497,1148,499,1152,503,1155,505,1156,510,1158,517,1156,525,1152,530,1148,533,1140,536,1132,534,1128,531,1124,527,1122,523,1121,516,1121,507,1127,500" />
             </map>
-            <map name="mapaRedes13" id="mapaRedes13">
+            <map name="mapaRedes013" id="mapaRedes13">
                 <area alt="" title="" href="https://twitter.com/Tannyas19" target="_blank" shape="poly" coords="642,406,648,406,651,408,657,410,660,415,662,418,664,425,664,431,661,435,658,440,651,443,644,444,638,444,632,440,628,436,626,427,625,421,628,415,633,409" />
                 <area alt="" title="" href="https://www.linkedin.com/in/tanny-achar-28980887?trk=nav_responsive_tab_profile" target="_blank" shape="poly" coords="708,406,713,407,716,409,721,412,724,416,726,420,726,426,726,433,722,438,718,441,713,443,708,444,703,444,698,442,694,438,691,434,690,428,689,421,690,416,694,411,701,407" />
             </map>
-            <map name="mapaRedes14" id="mapaRedes14">
+            <map name="mapaRedes014" id="mapaRedes14">
                 <area alt="" title="" href="https://twitter.com/Black_Flow_lBl" target="_blank" shape="poly" coords="901,335,906,335,913,337,918,342,920,345,923,349,923,355,921,362,918,367,913,370,908,373,902,372,896,371,891,369,887,365,886,361,886,356,886,349,888,343,893,338" />
                 <area alt="" title="" href="https://mx.linkedin.com/in/fernando-a-vaca-hernández-129321100" target="_blank" shape="poly" coords="965,336,971,337,976,338,979,341,984,346,985,350,985,359,983,365,979,370,974,373,969,374,965,374,960,373,954,370,953,367,949,362,949,358,949,353,950,347,951,343,956,339" />
             </map>
-            <map name="mapaRedes15" id="mapaRedes15">
+            <map name="mapaRedes015" id="mapaRedes15">
                 <area alt="" title="" href="https://twitter.com/Myrperezo" target="_blank" shape="poly" coords="667,548,674,549,680,550,686,555,689,561,690,567,689,574,686,580,683,583,679,585,673,587,668,587,661,584,657,581,654,576,652,570,651,564,654,559,658,552" />
                 <area alt="" title="" href="https://www.linkedin.com/in/miryam-p%C3%A9rez-olvera-67438512b?trk=nav_responsive_tab_profile" target="_blank" shape="poly" coords="734,549,741,549,746,551,750,557,752,563,752,573,749,580,742,585,735,586,731,586,725,585,722,582,718,577,716,573,715,566,716,561,718,555,726,550" />
             </map>
-            <map name="mapaRedes16" id="mapaRedes16">
+            <map name="mapaRedes016" id="mapaRedes16">
                 <area alt="" title="" href="https://twitter.com/NormanSnchez1" target="_blank" shape="poly" coords="1031,518,1038,520,1044,524,1047,527,1050,535,1049,544,1045,551,1038,556,1027,556,1020,554,1016,550,1013,543,1012,536,1013,529,1016,524,1022,520" />
                 <area alt="" title="" href="https://mx.linkedin.com/in/norman-sánchez-198b2039" target="_blank" shape="poly" coords="1095,517,1105,520,1109,524,1111,528,1113,534,1112,542,1108,549,1103,553,1094,555,1086,554,1081,551,1077,545,1075,539,1076,529,1079,522,1086,518" />
             </map>
-            <map name="mapaRedes17" id="mapaRedes17">
+            <map name="mapaRedes017" id="mapaRedes17">
                 <area alt="" title="" href="https://twitter.com/lauragarciandia" target="_blank" shape="poly" coords="757,554,763,552,771,553,776,554,780,557,783,561,785,566,786,570,785,577,782,582,778,587,774,589,767,590,762,590,759,588,755,587,752,583,750,580,748,575,748,568,750,561" />
                 <area alt="" title="" href="https://www.linkedin.com/in/laura-garciand%C3%ADa-57a81732?trk=nav_responsive_tab_profile" target="_blank" shape="poly" coords="826,553,834,552,839,554,843,556,845,559,847,563,848,567,849,572,848,578,845,583,840,587,834,590,831,590,824,589,818,587,815,585,813,581,812,578,811,573,811,569,813,562,816,557" />
             </map>
-            <map name="mapaRedes18" id="mapaRedes18">
+            <map name="mapaRedes018" id="mapaRedes18">
                 <area alt="" title="" href="https://twitter.com/veruk2405" target="_blank" shape="poly" coords="1045,525,1054,527,1060,531,1063,535,1065,541,1065,548,1062,555,1057,559,1054,561,1048,563,1042,563,1036,560,1031,557,1028,550,1027,543,1029,535,1036,528" />
                 <area alt="" title="" href="https://www.linkedin.com/in/veronica-sánchez-b4895bbb" target="_blank" shape="poly" coords="1109,525,1116,527,1120,529,1124,533,1126,537,1128,545,1127,552,1124,556,1119,560,1114,563,1106,563,1101,561,1095,557,1091,552,1091,544,1091,537,1094,531,1101,526" />
             </map>
-            <map name="mapaRedes19" id="mapaRedes19">
+            <map name="mapaRedes019" id="mapaRedes19">
                 <area alt="" title="" href="https://twitter.com/SergioAsurin" target="_blank" shape="poly" coords="1043,542,1050,543,1056,547,1060,553,1062,560,1060,568,1056,575,1050,579,1042,580,1033,577,1027,573,1025,564,1024,555,1027,549,1033,545,1037,542" />
                 <area alt="" title="" href="https://mx.linkedin.com/in/sergiocalera" target="_blank" shape="poly" coords="1103,542,1108,542,1111,543,1116,544,1120,547,1124,552,1125,561,1124,568,1121,574,1116,577,1109,580,1103,580,1096,577,1090,573,1088,567,1088,560,1089,551,1094,545" />
             </map>
-            <map name="mapaRedes20" id="mapaRedes20">
+            <map name="mapaRedes020" id="mapaRedes20">
                 <area alt="" title="" href="https://twitter.com/Italia Amaro" target="_blank" shape="poly" coords="950,526,958,527,963,530,968,534,970,539,970,544,970,550,967,556,963,560,959,563,953,564,945,562,940,559,936,555,934,548,933,541,936,535,941,530" />
                 <area alt="" title="" href="https://mx.linkedin.com/in/italia-amaro-684433bb" target="_blank" shape="poly" coords="1016,525,1022,527,1026,531,1029,534,1032,540,1033,547,1031,551,1028,556,1024,559,1020,561,1014,562,1008,561,1004,559,999,555,997,549,996,542,997,535,1005,527" />
             </map>
-            <map name="mapaRedes21" id="mapaRedes21">
+            <map name="mapaRedes021" id="mapaRedes21">
                 <area alt="" title="" href="https://twitter.com/LilySacal" target="_blank" shape="poly" coords="1013,480,1021,482,1026,485,1030,489,1032,493,1033,501,1031,508,1028,512,1024,516,1017,518,1010,518,1005,516,1000,512,996,507,996,498,996,493,998,487,1002,483" />
                 <area alt="" title="" href="https://mx.linkedin.com/in/lily-sacal-neumann-68321a17" target="_blank" shape="poly" coords="1075,479,1082,481,1086,483,1091,487,1093,492,1095,499,1093,505,1091,510,1086,513,1082,516,1079,517,1073,517,1067,516,1062,511,1058,502,1058,492,1062,484" />
             </map>
-            <map name="mapaRedes22" id="mapaRedes22">
+            <map name="mapaRedes022" id="mapaRedes22">
                 <area alt="" title="" href="https://www.linkedin.com/profile/preview?locale=es_ES&trk=prof-0-sb-preview-primary-button" target="_blank" shape="poly" coords="891,336,895,337,899,338,902,340,905,343,907,347,909,351,909,356,909,361,907,365,904,368,901,371,897,373,892,374,886,374,883,372,879,371,876,369,874,365,872,361,871,355,872,349,874,345,878,340,884,337" />
             </map>
-            <img id="colaboradorResalta" class="imgEncima invisible img-responsive" src="{{asset('images/organizadores/click/click1.png')}}" onclick="ocultaColaborador()" usemap="#mapaRedes1"/>
+            <img id="colaboradorResalta" class="imgEncima invisible img-responsive" src="{{asset('images/organizadores/click/click01.png')}}" onclick="ocultaColaborador()" usemap="#mapaRedes1"/>
             <img id="colaboradorSombra" class="imgEncima invisible img-responsive" src="{{asset('images/organizadores/frenteOrganiza.png')}}"/>
             <map name="mapaOrganizadores" id="mapaOrganizadores">
                 <area alt="Saviour" title="" shape="poly" onmouseover="muestraSombra('1')" onmouseout="ocultaSombra('1')" onclick="muestraColaborador('01')" coords="377,215,394,221,401,233,401,253,395,266,387,278,385,289,397,293,409,298,418,304,425,317,434,329,441,342,439,359,420,368,410,363,407,409,417,429,412,435,415,450,420,480,405,475,388,477,375,485,373,502,369,521,366,535,358,493,345,560,333,571,328,533,299,533,299,512,309,499,313,481,307,476,297,458,298,409,299,375,305,349,299,313,299,293,311,277,321,275,337,274,349,271,353,257,348,249,350,235,359,222" />

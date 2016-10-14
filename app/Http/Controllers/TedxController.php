@@ -4,13 +4,16 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Requests;
-
+use Illuminate\Support\Facades\DB;
 use App\Speaker;
+
+use App\Ponentes;
 
 class TedxController extends Controller {
 
     public function tedx() {
-        return view('viewTedx/tedx');
+        $ponentes = Ponentes::all();
+        return view('viewTedx/tedx')->with('ponentes',$ponentes);
     }
 
     public function galeria() {
@@ -31,5 +34,6 @@ class TedxController extends Controller {
 
         return view('viewPrograma/programa', ['speakers' => $speakers]);
     }
-
+       
 }
+

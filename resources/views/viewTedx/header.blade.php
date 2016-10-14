@@ -16,10 +16,10 @@
             </div>
             <div class="collapse navbar-collapse" id="navbar-Tedx">
                 <ul class="nav navbar-nav navbar-right text-menu ">
-                    <li class="active"><a href="#menu">Inicio</a></li>
-                    <li class=""><a href="#programa">Programa</a></li>
-                    <li class=""><a href="#ponentes">Ponentes</a></li>
-                    <li class=""><a href="#organizadores">Organizadores</a></li>                                
+                    <li class=""><a href="#menu"><strong>Inicio</strong></a></li>
+                    <li class=""><a href="#programa"><strong>Programa</strong></a></li>
+                    <li class=""><a href="#ponentes"><strong>Ponentes</strong></a></li>
+                    <li class=""><a href="#organizadores"><strong>Organizadores</strong></a></li>                                
                 </ul>
             </div>
         </div>

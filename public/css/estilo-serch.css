@@ -1,17 +1,17 @@
 .contactanos{
-	background: url(../images/BACK_CONTACTO.jpg);
-	background-repeat: no-repeat;
+    background: url(../images/BACK_CONTACTO.jpg);
+    background-repeat: no-repeat;
     background-size: 100%; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-	color: grey;
+    color: grey;
 }
 
 .contactanos input,
 .contactanos textarea{
-	width: 100%;
+    width: 100%;
 }
 
 .contactanos input::-webkit-input-placeholder { color: black; font-weight :bold; }
@@ -20,11 +20,11 @@
 .contactanos input::-ms-input-placeholder { color: black; font-weight: bold; }
 
 .contactanos .enviar{
-	width: 40%;
+    width: 40%;
 }
 
 .contactanos form{
-	margin-top: 15%;
+    margin-top: 15%;
 }
 
 
@@ -50,14 +50,14 @@
     left:0px;
 }
 .player{
-	background: url(../images/foto_header.jpg);
-	background-repeat: no-repeat;
+    background: url(../images/foto_header.jpg);
+    background-repeat: no-repeat;
     background-size: 100%; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-	color: grey;
+    color: grey;
 }
 
 .player p{
@@ -162,7 +162,7 @@ a.bloque.active{
 }
 
 #programa{
-    padding: 3% 0;
+    padding: 3% 0;  
 }
 
 .borde{

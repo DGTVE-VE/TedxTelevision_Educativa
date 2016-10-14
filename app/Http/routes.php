@@ -22,3 +22,4 @@ Route::get('galeria','TedxController@galeria');
 Route::get('programa/{bloq?}', 'TedxController@programa');
 
 Route::resource('mail', 'MailController');
+

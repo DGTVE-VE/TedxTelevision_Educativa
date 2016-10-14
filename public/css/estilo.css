@@ -35,7 +35,7 @@ body {
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
     color: #fff;
-    background-color: rgba(0,0,0,.2) !important; 
+    background-color: rgba(0,0,0,.7) !important; 
 }
 
 .imgTedx{
@@ -125,8 +125,8 @@ body {
     overflow:hidden;
     padding: 0;
     border: 0;
-    height: 170px;
-    width: 170px;
+    height: 210px;
+    width: 210px;
 }
 
 .caption {
@@ -163,10 +163,14 @@ body {
 }
 #ponentes h3{
     margin-top: 10%;
+    padding-bottom: 3%;
 }
 
 .textBlanco{
     color: white;
+}
+.margenPonentes{
+    padding: 5%;
 }
 /*end ponentes*/
 
@@ -178,15 +182,11 @@ body {
 
 }
 
-#videos{
-    /*background: url(../images/backvideos.jpg);
-    background-position: 20% 0;
+#programa{
+    background: url(../images/programa/back_widgets.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
-    height: 100%;
-    padding-top: 2%;
-    padding-bottom: 2%;*/
+    background-size: 100% 100%;
 }
 /*end que es videos*/
 
@@ -199,7 +199,7 @@ body {
 #organizadores h3{
     z-index: 2; 
     position: absolute;    
-    margin-left: 40%;
+    margin-left: 45%;
     margin-top: 10%;
 }
 @media all and (max-width: 425px){
@@ -209,7 +209,7 @@ body {
 }
 @media all and (max-width: 768px){
  #organizadores h3{
-        margin-left: 30%;
+        margin-left: 38%;
         margin-top: 12%;
         font-size: 20px;
     }
@@ -217,9 +217,17 @@ body {
 @media all and (max-width: 375px){
 
     #organizadores h3{
-        margin-left: 22%;
+        margin-left: 74px;
         margin-top: 18%;
         font-size: 15px;
+    }
+     #galeria h3{
+        margin-left: -40%;
+        margin-top: 18%;
+        font-size: 15px;
+    }
+    .thumbnail{
+        margin-left: -35px !important;
     }
 }
 /*end organizadores*/
@@ -238,5 +246,13 @@ body {
 }
 
 /*galeria*/
-#galeria{ background-color: #101010;}
+#galeria{ 
+    padding: 3%;
+    background-color: #101010;
+}
 /*fin galería*/
+
+.prog{
+    background: white;
+    height: 1200px;
+}

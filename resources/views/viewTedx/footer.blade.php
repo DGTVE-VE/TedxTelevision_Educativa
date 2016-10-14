@@ -5,29 +5,12 @@
                 | Este evento <strong class="txtRed">TEDx</strong> Independiente es organizado bajo licencia de <strong class="txtRed">TED</strong> En el mismo espíritu de difundir ideas, <strong class="txtRed">TED</strong> ha creado un programa llamado <strong class="txtRed">TEDx</strong>, el cual es un programa de eventos locales, organizados de forma independiente que reúnen a una audiencia en una experiencia similar a <strong class="txtRed">TED</strong>.  <strong class="txtRed">TED</strong> da lineamientos generales para el programa <strong class="txtRed">TEDx</strong>, pero cada TEDx individual es organizado de manera autónoma (sujeto a ciertas directrices).    
             </p>
         </div>
-        <div class="col-md-2 col-lg-2 col-sm-6 col-xs-12 text-center">            
-            <a class="linkPie" data-toggle="modal" href="#patrocinadores">PATROCINADORES</a>  
-        </div>
-        <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12 text-center">
+        <div class="col-md-5 col-lg-5 col-sm-12 col-xs-12 text-center">
             <a class="linkPie" data-toggle="modal" href="#aviso_privacidad">AVISO DE PRIVACIDAD</a>
         </div>
     </div>
 </div>
 <footer class="footer"></footer>
-
-<div class="modal fade" id="patrocinadores" role="dialog">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title text-center">Patrocinadores</h4>
-            </div>
-            <div class="modal-body">                    
-                <p></p>
-            </div>
-        </div>
-    </div>
-</div>
 
 <div class="modal fade" id="aviso_privacidad" role="dialog">
     <div class="modal-dialog modal-lg">

@@ -15,7 +15,7 @@
                                 <a href="#" class="redPonentes"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                             </p>
                         </div>
-                        <img src="{{$ponente->foto}}" alt="...">
+                        <img src="{{$ponente->foto_ponente}}" alt="...">
                     </div>
                 </div>
                 @endforeach

@@ -11,7 +11,6 @@
 @include('viewTedx.ponentes')
 @include('viewTedx.programa')
 @include('viewTedx.organizadores')
-@include('viewTedx.programa')
 @include('viewTedx.galeria')
 @include('viewTedx.contactanos')
 @endsection

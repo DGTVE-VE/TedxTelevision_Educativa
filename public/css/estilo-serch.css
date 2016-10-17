@@ -72,8 +72,8 @@
 }
 
 .row .clock{
-    width: 660px;
-    margin: 0 auto;
+    width: 630px;
+    margin: 0% auto;
 }
 
 
@@ -86,6 +86,18 @@
 @media screen and (max-width: 767px){
     .delimitador{
         margin-top: 15%;
+    }
+
+    .row .clock{
+        width: 470px;
+    }
+
+    .caja-clock{
+        margin: 50px auto;
+    }
+
+    .caja-clock p{
+        font-size: 14px;
     }
 }
 
@@ -174,4 +186,28 @@ a.bloque.active{
 
 .active .borde div{
     border-bottom: solid 4px red;
+}
+
+.caja-clock{
+    margin: 20% auto;
+}
+
+.caja-clock p{
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    font-size: 70px;
+    font-weight: lighter;
+}
+
+@media screen and (max-width: 767px){
+    .caja-clock{
+        margin: 50px auto;
+    }
+
+    .caja-clock p{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
 }

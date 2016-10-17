@@ -9,7 +9,7 @@
 @include('viewTedx.quees')
 @include('viewTedx.videos')
 @include('viewTedx.programa')
-@include('viewTedx.ponentes')
+<?php /*@include('viewTedx.ponentes')*/?>
 @include('viewTedx.organizadores')
 @include('viewTedx.galeria')
 @include('viewTedx.contactanos')

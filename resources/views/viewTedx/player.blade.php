@@ -10,7 +10,7 @@ $dteEnd   = new DateTime($strEnd);
 $actual = getdate();
 ?>
 <section id="player">
-	<div class="player">
+	<div class="player" class="parallax-window" data-parallax="scroll" data-speed="0.3" data-image-src="{{url('images/foto_header.jpg')}}" data-position="0px -20px">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">

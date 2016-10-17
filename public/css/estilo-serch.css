@@ -1,5 +1,6 @@
 .contactanos{
     background: url(../images/BACK_CONTACTO.jpg);
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100%; 
     -webkit-background-size: cover;
@@ -53,14 +54,14 @@
     left:0px;
 }
 .player{
-    background: url(../images/foto_header.jpg);
+    /*background: url(../images/foto_header.jpg);
     background-repeat: no-repeat;
-    background-size: 100%; 
+    background-size: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    color: grey;
+    color: grey;*/
 }
 
 .player p{

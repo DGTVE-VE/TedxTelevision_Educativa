@@ -8,7 +8,7 @@
 @include('viewTedx.player')
 @include('viewTedx.quees')
 @include('viewTedx.videos')
-<?php /*@include('viewTedx.ponentes')*/?>
+@include('viewTedx.ponentes')
 @include('viewTedx.organizadores')
 @include('viewTedx.programa')
 @include('viewTedx.galeria')

@@ -1,6 +1,6 @@
 <?php
-$strEnd   = '2016-10-17 5:02:00';
-$strJSEnd = '2016, 10, 17, 5, 02, 0';
+$strEnd   = '2016-11-17 9:00:00';
+$strJSEnd = '2016, 11, 17, 9, 0, 0';
 
 $dteStart = new DateTime();
 $dteEnd   = new DateTime($strEnd); 

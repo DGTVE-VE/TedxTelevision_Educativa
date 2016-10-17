@@ -1,6 +1,6 @@
 <?php
-$strEnd   = '2016-10-17 5:02:00';
-$strJSEnd = '2016, 10, 17, 5, 02, 0';
+$strEnd   = '2016-11-15 9:00:00';
+$strJSEnd = '2016, 11, 15, 9, 0, 0';
 
 $dteStart = new DateTime();
 $dteEnd   = new DateTime($strEnd); 
@@ -30,13 +30,13 @@ $actual = getdate();
 		<div class="box-shadow">
 			<div class="row">
 				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-					<p class="text-right">15 / 11 / 2016</p>
+					<p class="text-right">15 - 11 - 2016</p>
 				</div>
 				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
 					<p class="text-center">CDMX</p>
 				</div>
 				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-					<p class="text-left">20 ORADORES</p>
+					<p class="text-left">16 ORADORES</p>
 				</div>
 			</div>
 		</div>
@@ -57,7 +57,6 @@ $actual = getdate();
         language : 'es',
         callbacks: {
             stop: function() {
-                // $('.message').html('The clock has stopped!')
                 location.reload();
 	            }
 	        }

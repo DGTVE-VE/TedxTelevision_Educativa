@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use Illuminate\Support\Facades\DB;
 use App\Speaker;
+use App\Email;
+
 
 use App\Ponentes;
 
@@ -33,6 +35,22 @@ class TedxController extends Controller {
                             ->get();
 
         return view('viewPrograma/programa', ['speakers' => $speakers]);
+    }
+
+    public function email(Request $request){
+        $flag = false;
+        if( $request->isMethod("post") && $request->has("name") ){
+            $name = $request->input('name');
+            $email = $request->input('email');
+            $commit = $request->input('commit');
+            DB::table('emails')->insert([
+                    'name' => $name,
+                    'email' => $email
+                ]);
+            $flag = true;
+        }
+
+        return View('emails/contact', ["flag" => $flag, "name" => $name ]);
     }
        
 }

@@ -12,15 +12,18 @@
 .contactanos input,
 .contactanos textarea{
     width: 100%;
+    font-weight: bold;
+    color: black;
 }
 
-.contactanos input::-webkit-input-placeholder { color: black; font-weight :bold; }
-.contactanos input::-moz-placeholder { color: black; font-weight: bold; }
-.contactanos input::-moz-placeholder { color: black; font-weight: bold; }
-.contactanos input::-ms-input-placeholder { color: black; font-weight: bold; }
+.contactanos input::-webkit-input-placeholder { color: black; font-weight :lighter; }
+.contactanos input::-moz-placeholder { color: black; font-weight: lighter; }
+.contactanos input::-moz-placeholder { color: black; font-weight: lighter; }
+.contactanos input::-ms-input-placeholder { color: black; font-weight: lighter; }
 
 .contactanos .enviar{
     width: 40%;
+    color: white;
 }
 
 .contactanos form{

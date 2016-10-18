@@ -4,10 +4,11 @@
             <div class="col-md-12 text-center textBlanco"><h3><strong>PONENTES</strong></h3></div>
             <div class="col-lg-offset-0 col-md-offset-0 col-sm-offset-1 col-xs-offset-2 margenPonentes">
                 @foreach($ponentes as $ponente)
+                @if ($ponente->activo == 1)
                 <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">            
                     <div class="thumbnail">
                         <div class="caption">
-                            <h4>{{$ponente->grado}}.{{$ponente->nombre}}</h4>
+                            <h4>{{$ponente->grado}}{{$ponente->nombre}}</h4>
                             <h5>{{$ponente->institucion}}</h5>
                             <p>
                                 <a href="#" class="redPonentes"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -18,6 +19,7 @@
                         <img src="{{$ponente->foto_ponente}}" alt="...">
                     </div>
                 </div>
+                @endif
                 @endforeach
             </div>
         </div>

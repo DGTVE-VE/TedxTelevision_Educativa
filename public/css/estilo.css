@@ -182,7 +182,9 @@ body {
     /*background: rgba(0,0,0,0.7);*/
 
 }
-
+#galeria h3{
+    margin-top: 4%;
+}
 #programa{
     background: url(../images/programa/back_widgets.jpg);
     background-repeat: no-repeat;
@@ -209,7 +211,7 @@ body {
     }
 }
 @media all and (max-width: 768px){
- #organizadores h3{
+    #organizadores h3{
         margin-left: 38%;
         margin-top: 12%;
         font-size: 20px;
@@ -222,7 +224,7 @@ body {
         margin-top: 18%;
         font-size: 15px;
     }
-     #galeria h3{
+    #galeria h3{
         margin-left: -40%;
         margin-top: 18%;
         font-size: 15px;
@@ -257,13 +259,3 @@ body {
     background: white;
     height: 1200px;
 }*/
-
-.anteriorVideo{
-    color: white;
-    font-size: 40px;
-    
-}
-.siguienteVideo{
-    color: white;
-    font-size: 40px;
-}

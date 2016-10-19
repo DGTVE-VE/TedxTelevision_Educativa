@@ -51,7 +51,7 @@
             </map>
             <map name="mapaRedes012" id="mapaRedes12">
                 <area alt="Eugenio Cupiche" title="" href="https://twitter.com/BluesEnrique" target="_blank" shape="poly" coords="1073,497,1081,498,1085,500,1089,502,1092,505,1095,512,1095,518,1093,526,1087,532,1083,535,1075,535,1069,534,1064,530,1059,526,1058,519,1058,512,1060,504,1065,499" />
-                <area alt="" title="" href="https://www.linkedin.com" target="_blank" shape="poly" coords="1138,497,1143,497,1148,499,1152,503,1155,505,1156,510,1158,517,1156,525,1152,530,1148,533,1140,536,1132,534,1128,531,1124,527,1122,523,1121,516,1121,507,1127,500" />
+                <area alt="" title="" href=" https://mx.linkedin.com/in/eugenio-cupiche-avendaño-98955b72" target="_blank" shape="poly" coords="1138,497,1143,497,1148,499,1152,503,1155,505,1156,510,1158,517,1156,525,1152,530,1148,533,1140,536,1132,534,1128,531,1124,527,1122,523,1121,516,1121,507,1127,500" />
             </map>
             <map name="mapaRedes013" id="mapaRedes13">
                 <area alt="Tanny" title="" href="https://twitter.com/Tannyas19" target="_blank" shape="poly" coords="642,406,648,406,651,408,657,410,660,415,662,418,664,425,664,431,661,435,658,440,651,443,644,444,638,444,632,440,628,436,626,427,625,421,628,415,633,409" />
@@ -90,7 +90,7 @@
                 <area alt="" title="" href="https://mx.linkedin.com/in/lily-sacal-neumann-68321a17" target="_blank" shape="poly" coords="1075,479,1082,481,1086,483,1091,487,1093,492,1095,499,1093,505,1091,510,1086,513,1082,516,1079,517,1073,517,1067,516,1062,511,1058,502,1058,492,1062,484" />
             </map>
             <map name="mapaRedes022" id="mapaRedes22">
-                <area alt="Gerardo" title="" href="https://www.linkedin.com/profile/preview?locale=es_ES&trk=prof-0-sb-preview-primary-button" target="_blank" shape="poly" coords="891,336,895,337,899,338,902,340,905,343,907,347,909,351,909,356,909,361,907,365,904,368,901,371,897,373,892,374,886,374,883,372,879,371,876,369,874,365,872,361,871,355,872,349,874,345,878,340,884,337" />
+                <area alt="Gerardo" title="" href="https://www.linkedin.com/in/gerardo-antonio-estrada-esparza-a7628112b" target="_blank" shape="poly" coords="891,336,895,337,899,338,902,340,905,343,907,347,909,351,909,356,909,361,907,365,904,368,901,371,897,373,892,374,886,374,883,372,879,371,876,369,874,365,872,361,871,355,872,349,874,345,878,340,884,337" />
             </map>
             <img id="colaboradorResalta" class="imgEncima invisible img-responsive" src="{{asset('images/organizadores/click/click01.png')}}" onclick="ocultaColaborador()" usemap="#mapaRedes1"/>
             <img id="colaboradorSombra" class="imgEncima invisible img-responsive" src="{{asset('images/organizadores/frenteOrganiza.png')}}"/>

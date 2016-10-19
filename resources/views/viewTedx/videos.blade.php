@@ -35,11 +35,11 @@
 			</div>
 			<div class="custom-navigation col-md-12">
 			<div class="col-md-9">
-			  <a href="#" class="flex-prev" style="color:white;">Anterior</a>
+			  <a href="#" class="flex-prev" style="color:white;">ANTERIOR</a>
 			 </div>
 			<!--div class="custom-controls-container"></div-->
 			<div class="col-md-3">
-			  <a href="#" class="flex-next" style="color:white;">Siguiente</a>
+			  <a href="#" class="flex-next" style="color:white;">SIGUIENTE</a>
 			</div>
 			</div>
 			
@@ -100,9 +100,9 @@
 <script>
 
 <!--	***********	Activar slider colaboradores	*************	>
-    $('.flexslider').flexslider({
-    animation: "slide",
-    controlsContainer: $(".custom-controls-container"),
-    customDirectionNav: $(".custom-navigation a")
-  });
+	$('.flexslider').flexslider({
+		animation: "slide",
+		controlsContainer: $(".custom-controls-container"),
+		customDirectionNav: $(".custom-navigation a")
+	});
 </script>

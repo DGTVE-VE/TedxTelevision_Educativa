@@ -39,48 +39,5 @@
 <!--	********* Incluir libreria flexslider	***************	-->
 <link rel="stylesheet" href="js/FlexSlider/flexslider.css" type="text/css" media="screen"/>
 <script src="js/FlexSlider/jquery.flexslider.js"></script>
-<script>
-
-<!--	***********	Activar slider colaboradores	*************	>
-	$('.flexslider').flexslider({
-		animation: "slide"
-	});
-</script>
-<style>
-	.flex-direction-nav a {
-		display: block;
-		width: 40px;
-		height: 40px;
-		margin: -20px 0 0;
-		position: absolute;
-		top: 50%;
-		z-index: 10;
-		overflow: hidden;
-		opacity: 0;
-		cursor: pointer;
-		color: rgba(0, 0, 0, 0.8);
-		text-shadow: none;
-		-webkit-transition: all 0.3s ease-in-out;
-		-moz-transition: all 0.3s ease-in-out;
-		-ms-transition: all 0.3s ease-in-out;
-		-o-transition: all 0.3s ease-in-out;
-		transition: all 0.3s ease-in-out;
-		color: #fff;
-		background-color: #000;
-		border-radius: 50%;
-		text-align: center;
-	}
-	.flex-direction-nav a:before {
-		font-family: "flexslider-icon";
-		font-size: 20px;
-		display: inline-block;
-		content: '\f001';
-		color: #FFF;
-		text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
-		line-height: 40px;
-	}
-	.flex-direction-nav .flex-next {
-		right: -50px;
-		text-align: center;
-	}
-</style>
+<script src="js/videos.js"></script>
+<link rel="stylesheet" href="css/videos.css" type="text/css" media="screen"/>

@@ -21,7 +21,7 @@
                     <li class=""><a href="#ponentes"><strong>Ponentes</strong></a></li>
                     <li class=""><a href="#programa"><strong>Redes Sociales</strong></a></li>                                        
                     <li class=""><a href="#organizadores"><strong>Organizadores</strong></a></li>                                                    
-                    <li class=""><a href="#contact"><strong>Contactanos</strong></a></li>                                                    
+                    <li class=""><a href="#contact"><strong>Contáctanos</strong></a></li>                                                    
                 </ul>
             </div>
         </div>

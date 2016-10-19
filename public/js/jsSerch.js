@@ -6,7 +6,30 @@ $(document).ready(function () {
     	e.preventDefault();
     	bloque( $(this) ) ;
     });
+
+    $('.enviar').click(function(e){
+        e.preventDefault();
+        envio();
+    });
 });
+
+var envio = function(){
+    var local = this.location.origin;
+    var data = [];
+    $('.contactanos input').each(function(index){
+        data.push({name : $(this).attr('name'), value : $(this).val() });
+    });
+    data.push({name : $('#comentario').attr('name'), value : $('#comentario').val() });
+    console.log( data );
+    enviar( data, local + "/email", "POST", "html", false, function(m){
+        $('#mensaje-contac').html('');
+        $('#mensaje-contac').append(m);
+    });
+    $('.contactanos .con-text').each(function(index){
+        $(this).val("");
+    });
+    $('.contactanos textarea').val("");
+};
 
 var bloque = function( element ){
 	$('a.bloque').each(function(){

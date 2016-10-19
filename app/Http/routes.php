@@ -24,4 +24,3 @@ Route::get('galeria','TedxController@galeria');
 Route::get('programa/{bloq?}', 'TedxController@programa');
 
 Route::match( ["get", "post"], "email", "TedxController@email");
-

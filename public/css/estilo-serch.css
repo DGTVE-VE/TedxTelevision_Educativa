@@ -132,7 +132,7 @@ a.bloque.active{
 }
 
 .programa{
-    margin-top: 5%;
+    margin-top: 40px;
 }
 
 .caja-foto{
@@ -214,4 +214,8 @@ a.bloque.active{
         font-size: 30px;
         margin-bottom: 30px;
     }
+}
+
+.titulo-redes{
+    margin-bottom: 50px;
 }

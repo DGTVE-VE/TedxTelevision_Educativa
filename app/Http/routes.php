@@ -11,9 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('viewTedx/tedx');
-});
+//Route::get('/', function () {
+//    return view('viewTedx/tedx');
+//});
+
+Route::get('/', 'TedxController@tedx');
 
 Route::get('tedx','TedxController@tedx');
 

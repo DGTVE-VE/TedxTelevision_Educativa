@@ -49,46 +49,46 @@
 				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
 			  </ol>
 
-			  <div class="carousel-inner" role="listbox">
-				<div class="item active">
-					<div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
-						<iframe src="https://embed.ted.com/talks/lang/es/sir_ken_robinson_bring_on_the_revolution" width="360" height="220" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-						<p class="col-md-12 bottom-align-text">TED talks<br>6,611,604 visualizaciones</p>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
-						<iframe src="https://embed.ted.com/talks/rita_pierson_every_kid_needs_a_champion" width="360" height="220" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-						<p class="col-md-12 bottom-align-text">TED talks<br>6,189,600 visualizaciones</p>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
-						<iframe src="https://embed.ted.com/talks/lang/es/sugata_mitra_build_a_school_in_the_cloud" width="360" height="220" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-						<p class="col-md-12 bottom-align-text">TED talks<br>2,671,931 visualizaciones</p>
-					</div>
-				</div>
-				<div class="item">
-					<div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
-						<iframe src="https://embed.ted.com/talks/angela_lee_duckworth_grit_the_power_of_passion_and_perseverance" width="360" height="220" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-						<p class="col-md-12 bottom-align-text">TED talks<br>9,379,027 visualizaciones</p>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
-						<iframe src="https://embed.ted.com/talks/lang/es/salman_khan_let_s_use_video_to_reinvent_education" width="360" height="220" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-						<p class="col-md-12 bottom-align-text">TED talks<br>4,264,221 visualizaciones</p>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
-						<iframe src="https://embed.ted.com/talks/elizabeth_gilbert_success_failure_and_the_drive_to_keep_creating" width="360" height="220" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-						<p class="col-md-12 bottom-align-text">TED talks<br>3,079,938 visualizaciones</p>
-					</div>
-				</div>
-			  </div>
+              <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                            <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
+                                    <iframe src="https://embed.ted.com/talks/lang/es/sir_ken_robinson_bring_on_the_revolution" width="360" height="220" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                                    <p class="col-md-12 bottom-align-text">TED talks<br>6,611,604 visualizaciones</p>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
+                                    <iframe src="https://embed.ted.com/talks/rita_pierson_every_kid_needs_a_champion" width="360" height="220" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                                    <p class="col-md-12 bottom-align-text">TED talks<br>6,189,600 visualizaciones</p>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
+                                    <iframe src="https://embed.ted.com/talks/lang/es/sugata_mitra_build_a_school_in_the_cloud" width="360" height="220" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                                    <p class="col-md-12 bottom-align-text">TED talks<br>2,671,931 visualizaciones</p>
+                            </div>
+                    </div>
+                    <div class="item">
+                            <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
+                                    <iframe src="https://embed.ted.com/talks/angela_lee_duckworth_grit_the_power_of_passion_and_perseverance" width="360" height="220" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                                    <p class="col-md-12 bottom-align-text">TED talks<br>9,379,027 visualizaciones</p>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
+                                    <iframe src="https://embed.ted.com/talks/lang/es/salman_khan_let_s_use_video_to_reinvent_education" width="360" height="220" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                                    <p class="col-md-12 bottom-align-text">TED talks<br>4,264,221 visualizaciones</p>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
+                                    <iframe src="https://embed.ted.com/talks/elizabeth_gilbert_success_failure_and_the_drive_to_keep_creating" width="360" height="220" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                                    <p class="col-md-12 bottom-align-text">TED talks<br>3,079,938 visualizaciones</p>
+                            </div>
+                    </div>
+              </div>
 
-			  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-				<span class="sr-only">Previous</span>
-			  </a>
-			  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-				<span class="sr-only">Next</span>
-			  </a>
-			</div-->
+              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+              </a>
+            </div-->
 
 
         </div>  

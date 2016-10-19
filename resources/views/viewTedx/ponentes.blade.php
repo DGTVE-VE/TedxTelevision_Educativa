@@ -22,6 +22,7 @@
                 @endif
                 @endforeach
             </div>
+            <div class="col-md-12 altoPonentes"></div>
         </div>
     </div>
 </section>

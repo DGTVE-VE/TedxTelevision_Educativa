@@ -8,6 +8,33 @@
         <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
 
+
+        <!-- Meta para Share Facebook -->
+        <meta property="og:site_name" content="TEDx Televisi&oacute;n Educativa">
+        <meta property="og:type" content="article"></meta>
+        <meta property="og:image" content="www.tedxtelevisioneducativa.com/images/TEDxF.jpg"></meta>
+        <meta property="og:description" content="Buscamos la innovación en materia de educaci&oacute;n, para ello reunimos a los mejores. Esto es TEDx Televisi&oacute;n Educativa, somos las #IdeasEnMovimiento."></meta>
+        <meta property="og:url" content="http://www.tedxtelevisioneducativa.com"></meta>
+        <meta property="og:title" content="TEDx Televisi&oacute;n Educativa"></meta>
+
+
+        <!-- Twitter Card data -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@TEDxTvEducativa">
+        <meta name="twitter:title" content="TEDx Televisi&oacute;n Educativa">
+        <meta name="twitter:description" content="Buscamos la innovación en materia de educaci&oacute;n, para ello reunimos a los mejores. Esto es TEDx Televisi&oacute;n Educativa, somos las #IdeasEnMovimiento.">
+        <meta name="twitter:creator" content="@TEDxTvEducativa">
+        <!-- Resumen Twitter Card con una imagen grande con al menos 280x150px -->
+        <meta name="twitter:image:src" content="www.tedxtelevisioneducativa.com/images/TEDxF.jpg">
+
+
+        <!-- Marcado Schema.org para Google+ -->
+        <meta itemprop="name" content="TEDx Televisi&oacute;n Educativa">
+        <meta itemprop="description" content="Buscamos la innovación en materia de educaci&oacute;n, para ello reunimos a los mejores. Esto es TEDx Televisi&oacute;n Educativa, somos las #IdeasEnMovimiento.">
+        <meta itemprop="image" content="www.tedxtelevisioneducativa.com/images/TEDxF.jpg">
+
+
+
         <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" >
 
         <!-- Latest compiled and minified CSS -->

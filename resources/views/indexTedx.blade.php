@@ -12,7 +12,7 @@
         <!-- Meta para Share Facebook -->
         <meta property="og:site_name" content="TEDx Televisi&oacute;n Educativa">
         <meta property="og:type" content="article"></meta>
-        <meta property="og:image" content="www.tedxtelevisioneducativa.com/images/TEDxF.jpg"></meta>
+        <meta property="og:image" content="http://www.tedxtelevisioneducativa.com/images/TEDxF.jpg"></meta>
         <meta property="og:description" content="Buscamos la innovación en materia de educaci&oacute;n, para ello reunimos a los mejores. Esto es TEDx Televisi&oacute;n Educativa, somos las #IdeasEnMovimiento."></meta>
         <meta property="og:url" content="http://www.tedxtelevisioneducativa.com"></meta>
         <meta property="og:title" content="TEDx Televisi&oacute;n Educativa"></meta>
@@ -25,13 +25,13 @@
         <meta name="twitter:description" content="Buscamos la innovación en materia de educaci&oacute;n, para ello reunimos a los mejores. Esto es TEDx Televisi&oacute;n Educativa, somos las #IdeasEnMovimiento.">
         <meta name="twitter:creator" content="@TEDxTvEducativa">
         <!-- Resumen Twitter Card con una imagen grande con al menos 280x150px -->
-        <meta name="twitter:image:src" content="www.tedxtelevisioneducativa.com/images/TEDxF.jpg">
+        <meta name="twitter:image:src" content="http://www.tedxtelevisioneducativa.com/images/TEDxF.jpg">
 
 
         <!-- Marcado Schema.org para Google+ -->
         <meta itemprop="name" content="TEDx Televisi&oacute;n Educativa">
         <meta itemprop="description" content="Buscamos la innovación en materia de educaci&oacute;n, para ello reunimos a los mejores. Esto es TEDx Televisi&oacute;n Educativa, somos las #IdeasEnMovimiento.">
-        <meta itemprop="image" content="www.tedxtelevisioneducativa.com/images/TEDxF.jpg">
+        <meta itemprop="image" content="http://www.tedxtelevisioneducativa.com/images/TEDxF.jpg">
 
 
 

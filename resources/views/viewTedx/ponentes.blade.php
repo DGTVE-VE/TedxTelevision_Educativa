@@ -11,9 +11,9 @@
                             <h4>{{$ponente->grado}}{{$ponente->nombre}}</h4>
                             <h5>{{$ponente->institucion}}</h5>
                             <p>
-                                <a href="#" class="redPonentes"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="{{ $ponente->facebook != null ? $ponente->facebook : '#' }}" class="redPonentes"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                                 &nbsp;&nbsp;&nbsp;
-                                <a href="#" class="redPonentes"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="{{ $ponente->twitter != null ? $ponente->twitter : '#' }}" class="redPonentes"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                             </p>
                         </div>
                         <img src="{{$ponente->foto_ponente}}" alt="...">

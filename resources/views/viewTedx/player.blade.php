@@ -51,7 +51,7 @@ $actual = getdate();
 <script type="text/javascript" src="{{ asset ('js/flipclock.js') }}"></script>
 <script type="text/javascript">
 	var finishDate = new Date({{ $strJSEnd }});
-	var startDate = new Date( {{ $actual['year'] }}, {{ $actual['mon']-1 }}, {{ $actual['mday'] }}, {{ $actual['hours']-2 }}, {{ $actual['minutes'] }}, {{ $actual['seconds'] }} );
+	var startDate = new Date( {{ $actual['year'] }}, {{ $actual['mon']-1 }}, {{ $actual['mday'] }}, {{ $actual['hours']-6 }}, {{ $actual['minutes'] }}, {{ $actual['seconds'] }} );
 	var dif = finishDate.getTime() / 1000 - startDate.getTime() / 1000;
 	var clock = $('.clock').FlipClock({
 		clockFace: 'DailyCounter',

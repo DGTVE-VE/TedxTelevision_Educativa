@@ -38,7 +38,7 @@ $actual = getdate();
 					<p class="text-center">CDMX</p>
 				</div>
 				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-					<p class="text-left">16 ORADORES</p>
+					<p class="text-left">15 ORADORES</p>
 				</div>
 			</div>
 		</div>

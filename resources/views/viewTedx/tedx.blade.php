@@ -7,6 +7,7 @@
 @section('bodyTedx')
 @include('viewTedx.player')
 @include('viewTedx.quees')
+@include('viewTedx.videosPromos')
 @include('viewTedx.videos')
 @include('viewTedx.ponentes')
 @include('viewTedx.programa')

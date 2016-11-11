@@ -40,6 +40,11 @@
     margin-right: 0px;
     padding: 0 10%;
 }
+.cajaVideoCuerpo{
+    width:100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
 .contenedor{
     height:0px;
     width:100%;
@@ -53,6 +58,14 @@
     top:0px;
     left:0px;
 }
+.cajaVideoTitulo p{
+    font-weight: bold;
+    padding: 10px 0px;
+}
+#videosPromo{
+    margin-bottom: 3%;
+}
+
 .player{
     /*background: url(../images/foto_header.jpg);
     background-repeat: no-repeat;

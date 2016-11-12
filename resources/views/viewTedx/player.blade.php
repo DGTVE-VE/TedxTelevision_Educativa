@@ -17,7 +17,7 @@ $actual = getdate();
 					<div class="delimitador">
 						@if( $dteEnd < $dteStart )
 						<div class="contenedor">
-							<iframe src="//player.cdnmedia.tv/embed/7eb28dc9" style="box-shadow: 1px 1px 5px #444444;" frameborder="0" width="560" height="420" allowfullscreen></iframe>
+							<iframe src="//player.cdnmedia.tv/embed/1025781c" style="box-shadow: 1px 1px 5px #444444;" frameborder="0" width="560" height="450" allowfullscreen></iframe>
 						</div>
 						@else
 						<div class="caja-clock">

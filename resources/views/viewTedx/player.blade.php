@@ -5,7 +5,8 @@ $strJSEnd = '2016, 10, 15, 9, 0, 0';
 
 
 $dteStart = new DateTime();
-$dteEnd   = new DateTime($strEnd); 
+$dteEnd   = new DateTime($strEnd, new DatetimeZone('America/Mexico_City'));
+$dteStart->setTimezone( new DatetimeZone('America/Mexico_City') );
 
 $actual = getdate();
 ?>

@@ -51,7 +51,8 @@
     padding-top:56.25%;
     position:relative;
 }
-.contenedor iframe{
+.contenedor iframe,
+.contenedor img{
     position:absolute;
     height:100%;
     width:100%;
